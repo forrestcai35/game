@@ -1,0 +1,10 @@
+{
+  "name": "@nook/mobile",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "open": "open nook.xcodeproj",
+    "check": "bash scripts/xcode.sh -list -project nook.xcodeproj",
+    "build": "bash scripts/xcode.sh -project nook.xcodeproj -scheme nook -configuration Debug -destination \"generic/platform=iOS Simulator\" -derivedDataPath .build CODE_SIGNING_ALLOWED=NO build"
+  }
+}

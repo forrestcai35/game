@@ -1,0 +1,25 @@
+# JavaScript and Turbo
+node_modules/
+.turbo/
+dist/
+.next/
+coverage/
+*.tsbuildinfo
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Xcode
+.build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcarchive
+*.ipa
+
+# Local agent settings
+.claude/settings.local.json
+CLAUDE.local.md

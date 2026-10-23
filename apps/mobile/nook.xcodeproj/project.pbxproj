@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		A87035ED307C1B1100078940 /* game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87035ED307C1B1100078940 /* nook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A87035EF307C1B1100078940 /* game */ = {
+		A87035EF307C1B1100078940 /* nook */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = game;
+			path = nook;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -30,7 +30,7 @@
 		A87035E4307C1B1100078940 = {
 			isa = PBXGroup;
 			children = (
-				A87035EF307C1B1100078940 /* game */,
+				A87035EF307C1B1100078940 /* nook */,
 				A87035EE307C1B1100078940 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,7 +38,7 @@
 		A87035EE307C1B1100078940 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A87035ED307C1B1100078940 /* game.app */,
+				A87035ED307C1B1100078940 /* nook.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,9 +46,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A87035EC307C1B1100078940 /* game */ = {
+		A87035EC307C1B1100078940 /* nook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A87035FA307C1B1300078940 /* Build configuration list for PBXNativeTarget "game" */;
+			buildConfigurationList = A87035FA307C1B1300078940 /* Build configuration list for PBXNativeTarget "nook" */;
 			buildPhases = (
 				A87035E9307C1B1100078940 /* Sources */,
 				A87035EA307C1B1100078940 /* Frameworks */,
@@ -57,11 +57,11 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				A87035EF307C1B1100078940 /* game */,
+				A87035EF307C1B1100078940 /* nook */,
 			);
-			name = game;
-			productName = game;
-			productReference = A87035ED307C1B1100078940 /* game.app */;
+			name = nook;
+			productName = nook;
+			productReference = A87035ED307C1B1100078940 /* nook.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -79,7 +79,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A87035E8307C1B1100078940 /* Build configuration list for PBXProject "game" */;
+			buildConfigurationList = A87035E8307C1B1100078940 /* Build configuration list for PBXProject "nook" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -93,7 +93,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A87035EC307C1B1100078940 /* game */,
+				A87035EC307C1B1100078940 /* nook */,
 			);
 		};
 /* End PBXProject section */
@@ -115,7 +115,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A87035F8307C1B1300078940 /* Debug configuration for PBXProject "game" */ = {
+		A87035F8307C1B1300078940 /* Debug configuration for PBXProject "nook" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -177,7 +177,7 @@
 			};
 			name = Debug;
 		};
-		A87035F9307C1B1300078940 /* Release configuration for PBXProject "game" */ = {
+		A87035F9307C1B1300078940 /* Release configuration for PBXProject "nook" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +231,7 @@
 			};
 			name = Release;
 		};
-		A87035FB307C1B1300078940 /* Debug configuration for PBXNativeTarget "game" */ = {
+		A87035FB307C1B1300078940 /* Debug configuration for PBXNativeTarget "nook" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -278,7 +278,7 @@
 			};
 			name = Debug;
 		};
-		A87035FC307C1B1300078940 /* Release configuration for PBXNativeTarget "game" */ = {
+		A87035FC307C1B1300078940 /* Release configuration for PBXNativeTarget "nook" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -328,19 +328,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A87035E8307C1B1100078940 /* Build configuration list for PBXProject "game" */ = {
+		A87035E8307C1B1100078940 /* Build configuration list for PBXProject "nook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A87035F8307C1B1300078940 /* Debug configuration for PBXProject "game" */,
-				A87035F9307C1B1300078940 /* Release configuration for PBXProject "game" */,
+				A87035F8307C1B1300078940 /* Debug configuration for PBXProject "nook" */,
+				A87035F9307C1B1300078940 /* Release configuration for PBXProject "nook" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		A87035FA307C1B1300078940 /* Build configuration list for PBXNativeTarget "game" */ = {
+		A87035FA307C1B1300078940 /* Build configuration list for PBXNativeTarget "nook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A87035FB307C1B1300078940 /* Debug configuration for PBXNativeTarget "game" */,
-				A87035FC307C1B1300078940 /* Release configuration for PBXNativeTarget "game" */,
+				A87035FB307C1B1300078940 /* Debug configuration for PBXNativeTarget "nook" */,
+				A87035FC307C1B1300078940 /* Release configuration for PBXNativeTarget "nook" */,
 			);
 			defaultConfigurationName = Release;
 		};
